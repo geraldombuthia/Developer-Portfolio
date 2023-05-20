@@ -125,7 +125,18 @@ section {
   line-height: 1.8em;
   font-weight: 500;
 }
+.skill-tab {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  max-width: 300px;
+  flex-wrap: wrap;
+}
 
+.skill-tab > p {
+  margin: 10px;
+  color: #6e00ff; /* Accent color */
+}
 .skills {
   background: #ff64cb;
 }
